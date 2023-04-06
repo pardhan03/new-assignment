@@ -16,3 +16,7 @@ INSERT INTO products (product_id, product_name, category, price) VALUES
   (4, 'Shoes', 'Footwear', 59.99),
   (5, 'Backpack', 'Accessories', 29.99),
   (6, 'Pants', 'Clothing', 24.99);
+  
+  
+  
+  SELECT DISTINCT category FROM products;
